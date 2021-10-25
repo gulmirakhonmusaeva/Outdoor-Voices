@@ -31,18 +31,13 @@ img {
 
 .button {
     padding:12px 24px;
-    border:none;
     border-radius: 24px;
     font-size: 16px;
     text-align: center;
-    outline: none;
+    text-decoration: none;
     background-color: #fff;
     color: #202020;
     cursor: pointer;
-}
-
-.header-button {
-    margin-top: 35px;
 }
 
 .dark-button {
@@ -57,7 +52,7 @@ img {
   /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1240px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: auto;
@@ -86,9 +81,6 @@ img {
     letter-spacing: 0.25px;
 }
 
-.header-nav {
-   
-}
 .navbar {
     display: flex;
     align-items: center;
@@ -148,23 +140,21 @@ main {
     background-color: #fff;
 }
 .explore-section {
-    height: 810px;
+    height: 81vh;
     background-image: url('./img/explore.jpg');
-    background-position: bottom right;
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
 }
 .main-content {
     flex-grow: 1;
-    position: relative;
+
 }
+
 .explore-section-content {
    width: 501px;
-   text-align: left;
-   position: absolute;
-   right: 111px;
-   top: 45px;
+   margin-left: auto;
    color: #fff;
 }
 
@@ -178,6 +168,7 @@ main {
 .explore-section-text {
     margin: 0;
     margin-top: 38px;
+    margin-bottom: 35px;
     font-weight: normal;
     font-size: 24px;
     line-height: 31px;
@@ -311,4 +302,103 @@ main {
 }
 .shoppen-pictures {
     display: flex;
+}
+
+
+/* CONTENT */
+.content {
+    margin-top: 72px;
+}
+
+.content-head {
+    margin: 0;
+    font-size: 71px;
+    line-height: 88px;  
+    font-weight: normal;
+    letter-spacing: 3.5px;
+    color: #202020;
+}
+
+.bold-content {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 3.5px;
+}
+
+.content-link {
+    display: inline-block;
+    margin-top: 28px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+i {
+    margin-left: 10px;
+    width: 28px;
+    height: 26px;
+    color: #000;
+    cursor: pointer;
+
+}
+
+
+/* RECREATION SECTION */
+
+.recreation {
+    margin-top: 92px;
+}
+
+.recreation-title-button {
+    display: flex;
+
+}
+
+.recreation-title {
+    flex: 1;
+    margin: 0;
+    font-size: 61px;
+    font-weight: normal;
+    letter-spacing: 3.4px;
+    color: #202020;
+}
+
+.recration-button {
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+.recreation-images {
+    margin-top: 50px;
+    display: flex;
+}
+
+.recreation-img {
+    width: 579px;
+    height: 772px;
+}
+
+.recreation-img img {
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+}
+
+.recreation-info {
+    margin: 0;
+    margin-top: 13px;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: normal;
+    color: #737373;
+}
+
+.recreation-head {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #202020;
 }
